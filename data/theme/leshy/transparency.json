@@ -1,0 +1,261 @@
+{
+  "name": "透明",
+  "file": "page/transparency",
+  "description": "透明文件",
+  "order": 5,
+  "more": {
+    "vars": {},
+    "widgets": {
+      "introduction": {
+        "title": "介绍",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "<p>We represent a new way of doing things.</p><p>The opaque, complex process behind offshoring and international trade has always been the perfect condition for swindlers and imposters to thrive. Each year, hundreds of businesses spend millions of dollars to maintain reliable offshoring teams and/or agents, who seem to know what they are paid to do, yet still reluctant to reveal their most valuable secrets.</p><p> It’s time for Leshy Vision to raise the bar and push for more transparency.</p>",
+            "type": "textarea",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          }
+        }
+      },
+      "banner": {
+        "title": "视窗大图",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "Winners never cheat.",
+            "type": "text",
+            "placeholder": "请输入标题"
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "comparison": {
+        "title": "比较",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "<p>Everyone defines integrity differently. This could be further exacerbated by differences in culture. Some integrity-based choices can only boil down to personal judgements.</p><p>However, Leshy Vision’s goal is to make clearer the blurred lines which can otherwise be rationalized by some businesses as “not really cheating” or “everybody else does”.</p>",
+            "type": "textarea",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "sub_title": {
+            "title": "子标题",
+            "value": "Here is a comparison between traditional vendors and Leshy Vision:",
+            "type": "text",
+            "placeholder": "",
+            "tip": ""
+          },
+          "table_left": {
+            "title": "表格头左",
+            "value": "Traditional Vendors",
+            "type": "text",
+            "placeholder": "",
+            "tip": ""
+          },
+          "table_right": {
+            "title": "表格头右",
+            "value": "Leshy Vision",
+            "type": "text",
+            "placeholder": "",
+            "tip": ""
+          },
+          "table": {
+            "title": "表格明细",
+            "value": [
+              {
+                "icon": "",
+                "title": "Zero disclosure.",
+                "desc": "More often than not, when a redundant agent involved in the transaction gets over-compensated, there’s almost nothing to detect or fix it."
+              },
+              {
+                "icon": "",
+                "title": "Full disclosure.",
+                "desc": "Full disclosure. We provide 100% openness, truth and directness with vendees about our organization, products and procedures when part of the corresponding transaction."
+              }
+            ],
+            "type": "array",
+            "item":{
+              "icon": {
+                "title": "图标",
+                "value": "",
+                "type": "image",
+                "placeholder": "",
+                "tip": ""
+              },
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text",
+                "placeholder": "",
+                "tip": ""
+              },
+              "desc": {
+                "title": "描述",
+                "value": "",
+                "type": "textarea",
+                "placeholder": "",
+                "tip": ""
+              }
+            }
+          },
+          "table_desc":{
+            "title": "表格底部描述",
+            "value": "<p>We take transparency seriously.</p><p>We tell our clients the truth even if the truth might be ugly.</p><p>We do not make promises that we cannot keep.</p>",
+            "type": "textarea",
+            "placeholder": "",
+            "tip": ""}
+        }
+      },
+      "community": {
+        "title": "社区",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "A COMMUNITY OF CHANGE MAKERS",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "news": {
+        "title": "新闻",
+        "display": "1",
+        "vars": {
+          "last_news_category_id": {
+            "title": "最新新闻ID",
+            "value": [],
+            "type": "text",
+            "dataSource": {
+              "api": "portal/category",
+              "multi": true
+            },
+            "placeholder": "请选择分类",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "portals": {
+            "title": "管理新闻",
+            "value": [
+              {
+                "title": "示例新闻",
+                "thumbnail": "",
+                "link":""
+              }
+            ],
+            "type": "array",
+            "item": {
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text"
+              },
+              "thumbnail": {
+                "title": "缩略图",
+                "value": "",
+                "type": "image"
+              },
+              "link": {
+                "title": "跳转地址",
+                "value": "",
+                "type": "text"
+              }
+            }
+          },
+          "title": {
+            "title": "标题",
+            "value": "As a nimble, tight-knit organization run by talented and motivated individuals, Leshy Vision finds meaningfulness and responsibilities beyond day-to-day business activities.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "button": {
+            "title": "按钮",
+            "value": " Company News ",
+            "type": "text",
+            "placeholder": "请输入按钮标题",
+            "tip": ""
+          },
+          "link": {
+            "title": "跳转地址",
+            "value": "/news",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址",
+            "tip": ""
+          }
+        }
+      },
+      "products": {
+        "title": "产品",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "Send Inquiry and learn more about the products.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "inquiry_button": {
+            "title": "按钮",
+            "value": "Send Inquiry",
+            "type": "text",
+            "placeholder": "请输入按钮标题",
+            "tip": ""
+          },
+          "inquiry_link": {
+            "title": "跳转地址",
+            "value": "",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址",
+            "tip": ""
+          },
+          "products_button": {
+            "title": "按钮",
+            "value": "Products",
+            "type": "text",
+            "placeholder": "请输入按钮标题",
+            "tip": ""
+          },
+          "products_link": {
+            "title": "跳转地址",
+            "value": "/product",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址",
+            "tip": ""
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<html lang="en">
+
+<head>
+    {{template "public/head" .}}
+</head>
+
+<body>
+<div id="root">
+    {{template "public/header" .}}
+</div>
+<script>
+    const pageState = {
+        data:{{.data}}
+    }
+    console.log("pageState",pageState)
+</script>
+{{template "public/script" .}}
+</body>
+</html>

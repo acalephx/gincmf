@@ -1,0 +1,220 @@
+{
+  "name": "制造商",
+  "file": "page/oem",
+  "description": "制造商文件",
+  "order": 5,
+  "more": {
+    "vars": {},
+    "widgets": {
+      "banner": {
+        "title": "视窗大图",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "It surely is no easy feat to source or even create the right product for your business. We are always glad to lend a hand.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "introduction": {
+        "title": "工厂介绍",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "IDEA TO PRODUCT",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "sub_title": {
+            "title": "标题",
+            "value": "The straightforward process that turns your idea into prototypes and bestsellers:",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": "",
+            "rule": {
+              "require": true
+            }
+          },
+          "image": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          },
+          "button": {
+            "title": "按钮",
+            "value": "Transparency",
+            "type": "text",
+            "placeholder": "请输入按钮标题"
+          },
+          "link": {
+            "title": "跳转地址",
+            "value": "/transparency",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址"
+          }
+        }
+      },
+      "duty": {
+        "title": "职责",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "Results oriented.<br />Clear roles and responsibilities.<br />This is how we adaptively compose tasks and duties for a typical project:",
+            "type": "textarea",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "image": {
+            "title": "逻辑图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传逻辑图",
+            "tip": ""
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "products": {
+        "title": "产品",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "ADAPTABLE PRODUCTS",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "image": {
+            "title": "产品图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传产品图",
+            "tip": ""
+          },
+          "sub_title": {
+            "title": "标题",
+            "value": "Browse the collection of (xx,xxx*) vanilla models: Binoculars, telescopic sights, accessories, and more.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "desc": {
+            "title": "标题",
+            "value": "(*xxx) newly added since last month",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "button": {
+            "title": "按钮",
+            "value": "Browse All Products",
+            "type": "text",
+            "placeholder": "请输入按钮标题",
+            "tip": ""
+          },
+          "link": {
+            "title": "跳转地址",
+            "value": "/product",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址",
+            "tip": ""
+          }
+        }
+      },
+      "business": {
+        "title": "企业",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "ADAPTABLE BUSINESS",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "image": {
+            "title": "生产线图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传生产线图",
+            "tip": ""
+          },
+          "sub_title": {
+            "title": "副标题",
+            "value": "While some businesses spread themselves thin just to inflate their “in-house” production, others leverage the reserve capacity from a pool of 10,000+ manufacturing facilities around the world (half of which at our doorstep).",
+            "type": "text",
+            "placeholder": "请输入副标题"
+          },
+          "desc": {
+            "title": "描述",
+            "value": "Connect with us. Minimize the risks. Focus on what really matters.",
+            "type": "text",
+            "placeholder": "请输入描述内容"
+          }
+        }
+      },
+      "inquiry": {
+        "title": "企业",
+        "display": "1",
+        "vars": {
+          "title1": {
+            "title": "标题",
+            "value": "Get in touch.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "title2": {
+            "title": "标题",
+            "value": "Get things done.",
+            "type": "text",
+            "placeholder": "请输入标题",
+            "tip": ""
+          },
+          "button": {
+            "title": "按钮",
+            "value": "Send Inquiry",
+            "type": "text",
+            "placeholder": "请输入按钮标题",
+            "tip": ""
+          },
+          "link": {
+            "title": "跳转地址",
+            "value": "",
+            "type": "text",
+            "placeholder": "请输入按钮跳转地址",
+            "tip": ""
+          }
+        }
+      }
+    }
+  }
+}

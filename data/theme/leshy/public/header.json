@@ -1,0 +1,45 @@
+{
+  "name": "公共头部内容",
+  "file": "public/header",
+  "description": "公共头部内容",
+  "is_public": "1",
+  "order": 1.0,
+  "more": {
+    "vars": {
+    },
+    "widgets": {
+      "navs": {
+        "title": "右侧导航",
+        "display": "1",
+        "vars": {
+          "extra": {
+            "title": "导航详情",
+            "value": [
+              {
+                "title": "Search",
+                "link": ""
+              },
+              {
+                "title": "Send Inquiry",
+                "link": ""
+              }
+            ],
+            "type": "array",
+            "item": {
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text"
+              },
+              "link": {
+                "title": "跳转地址",
+                "value": "",
+                "type": "text"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

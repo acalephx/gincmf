@@ -1,0 +1,11 @@
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.dropdown .dropdown-menu:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar {
+  padding: 0;
+}

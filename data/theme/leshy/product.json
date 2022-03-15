@@ -1,0 +1,51 @@
+{
+  "name": "产品中心",
+  "file": "list/product",
+  "description": "新闻中心文件",
+  "order": 5,
+  "more": {
+    "vars": {},
+    "widgets": {
+      "tags": {
+        "title": "聚合标签",
+        "display": "1",
+        "vars": {
+          "list": {
+            "title": "标签列表",
+            "value": [{
+              "title": "New Models",
+              "link": "",
+              "bg":""
+            },{
+              "title": "Best-Sellers",
+              "link": "",
+              "bg":""
+            },{
+              "title": "For Kids",
+              "link": "",
+              "bg":""
+            }],
+            "type": "array",
+            "item": {
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text"
+              },
+              "link": {
+                "title": "跳转链接",
+                "value": "",
+                "type": "text"
+              },
+              "bg": {
+                "title": "背景图片",
+                "value": "",
+                "type": "image"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

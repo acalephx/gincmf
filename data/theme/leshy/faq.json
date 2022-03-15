@@ -1,0 +1,155 @@
+{
+  "name": "FAQ",
+  "file": "page/faq",
+  "description": "faq",
+  "order": 5,
+  "more": {
+    "vars": {},
+    "widgets": {
+      "contactBanner": {
+        "title": "视窗大图",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "Contact Us",
+            "type": "text",
+            "placeholder": "请输入标题"
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "contact": {
+        "title": "描述",
+        "display": "1",
+        "vars": {
+            "left": {
+            "title": "左边描述",
+            "value": [
+              {
+                "title": "General Inquiry",
+                "desc": "info@leshyvision.com",
+                "link": ""
+              }
+            ],
+            "type": "array",
+            "item":{
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text",
+                "placeholder": "",
+                "tip": ""
+              },
+              "desc": {
+                "title": "描述",
+                "value": "",
+                "type": "textarea",
+                "placeholder": "",
+                "tip": ""
+              },
+              "link": {
+                "title": "描述",
+                "value": "",
+                "type": "text",
+                "placeholder": "",
+                "tip": ""
+              }
+            }
+          },
+          "right": {
+          "title": "右边描述",
+          "value": [
+            {
+              "key": "General Manager",
+              "value": "Bo Yan",
+              "desc": "info@leshyvision.com"
+            }
+          ],
+          "type": "array",
+          "item":{
+            "key": {
+              "title": "标题",
+              "value": "",
+              "type": "text",
+              "placeholder": "",
+              "tip": ""
+            },
+            "value": {
+              "title": "描述",
+              "value": "",
+              "type": "text",
+              "placeholder": "",
+              "tip": ""
+            },
+            "desc": {
+              "title": "描述",
+              "value": "",
+              "type": "textarea",
+              "placeholder": "",
+              "tip": ""
+            }
+          }
+        }
+        }
+      },
+      "faqBanner": {
+        "title": "视窗大图",
+        "display": "1",
+        "vars": {
+          "title": {
+            "title": "标题",
+            "value": "FAQ",
+            "type": "text",
+            "placeholder": "请输入标题"
+          },
+          "bg": {
+            "title": "背景图",
+            "value": "",
+            "type": "image",
+            "placeholder": "请上传背景图片",
+            "tip": ""
+          }
+        }
+      },
+      "faq": {
+        "title": "faq",
+        "display": "1",
+        "vars": {
+          "list": {
+            "title": "faq列表",
+            "value": [
+              {
+                "title": "What is Leshy Vision?",
+                "desc": "<h1> HELLO leshu</h1>"
+              }
+            ],
+            "type": "array",
+            "item":{
+              "title": {
+                "title": "标题",
+                "value": "",
+                "type": "text",
+                "placeholder": "",
+                "tip": ""
+              },
+              "desc": {
+                "title": "描述",
+                "value": "",
+                "type": "textarea",
+                "placeholder": "",
+                "tip": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
